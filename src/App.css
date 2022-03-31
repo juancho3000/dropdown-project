@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+.App{
+  text-align: center;
+}
+
 body{
   background:#fcfcfc;
 }
@@ -15,16 +19,41 @@ body{
 
 .select{
   width: 400px;
-  height: 100vh;
+  margin: 100px auto; 
+  position: relative;
 }
 
 .select .select-btn{
-  
   padding: 15px 20px;
   background: #fff;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
   font-weight: bold;
   color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+}
+
+.select .select-content{
+  position: absolute;
+  top: 110%;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-weight: bold;
+  color: #333;
+  text-align: start;
+  font-weight: 500;
+  width: 95%;
+}
+
+.select .select-content .select-item{
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.select .select-content .select-item:hover{
+  background: #f4f4f4;
 }
