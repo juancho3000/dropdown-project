@@ -57,3 +57,7 @@ body{
 .select .select-content .select-item:hover{
   background: #f4f4f4;
 }
+
+.arrow{
+  cursor: pointer;
+}
