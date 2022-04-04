@@ -21,6 +21,7 @@ body{
   width: 400px;
   margin: 100px auto; 
   position: relative;
+  user-select: none;
 }
 
 .select .select-btn{
@@ -33,6 +34,7 @@ body{
   border-radius: 5px;
   font-weight: bold;
   color: #333;
+  cursor: pointer;
 }
 
 .select .select-content{
@@ -58,6 +60,3 @@ body{
   background: #f4f4f4;
 }
 
-.arrow{
-  cursor: pointer;
-}
