@@ -6,14 +6,18 @@ function Dropdown ({picked, setPicked}) {
     const options = [
         'nancy', 
         'miguel',
-        'guillermo'
+        'guillermo',
+        'juan',
+        'estela',
+        'carmen',
+        'adriana',
     ];
      
     return(
         <div className="select">
             <div className="select-btn" onClick={(e) => 
             setItsOn(!itsOn)}>
-           {picked}
+           Click here
              <span className="under"></span>
                 <TiArrowSortedDown/> 
                 </div>
