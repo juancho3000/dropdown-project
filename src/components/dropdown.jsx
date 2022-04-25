@@ -1,21 +1,22 @@
 import  { useState } from "react";
 import {TiArrowSortedDown} from 'react-icons/ti';
+//import App from "../App";
 
-  export default function Dropdown ({ picked, setPicked }) {
+ function Dropdown ({ picked, setPicked }) {
     const [itsOn, setItsOn] = useState(false);
 
     const options = [  
-        {key:"guillermo"},
-        {key:"miguel"},
-        {key:"nancy"},
-        {key:"juan"},
-        {key:"carmen"},
-        {key:"adriana"},
-        {key:"julia"},
-        {key:"gregory"}
+       {key:"guillermo"},
+       {key:"miguel"},
+       {key:"nancy"},
+       {key:"juan"},
+       {key:"carmen"},
+       {key: "adriana"},
+       {key:"julia"},
+       {key:"gregory"}
        ];
 
-    return(
+       return( 
         <div className="select" >
             <div className="select-btn" onClick={(e) => 
             setItsOn(!itsOn)}>
@@ -29,7 +30,7 @@ import {TiArrowSortedDown} from 'react-icons/ti';
                         <div
                         key={option.key}
                         onClick={(e) => { 
-                         setPicked(option); 
+                         setPicked(option.key); 
                          setItsOn(false);
                         }}
                          className="select-item">
@@ -41,4 +42,4 @@ import {TiArrowSortedDown} from 'react-icons/ti';
         </div>
     );
 }
-//export default Dropdown;
+export default Dropdown;
