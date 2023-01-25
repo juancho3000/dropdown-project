@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/juancho3000/dropdown-project/static/css/main.ee5a54be.css",
-    "main.js": "/juancho3000/dropdown-project/static/js/main.44967100.js",
-    "static/js/787.6804c560.chunk.js": "/juancho3000/dropdown-project/static/js/787.6804c560.chunk.js",
-    "index.html": "/juancho3000/dropdown-project/index.html",
-    "main.ee5a54be.css.map": "/juancho3000/dropdown-project/static/css/main.ee5a54be.css.map",
-    "main.44967100.js.map": "/juancho3000/dropdown-project/static/js/main.44967100.js.map",
-    "787.6804c560.chunk.js.map": "/juancho3000/dropdown-project/static/js/787.6804c560.chunk.js.map"
+    "main.css": "/dropdown-project/static/css/main.ee5a54be.css",
+    "main.js": "/dropdown-project/static/js/main.fb898221.js",
+    "static/js/787.6804c560.chunk.js": "/dropdown-project/static/js/787.6804c560.chunk.js",
+    "index.html": "/dropdown-project/index.html",
+    "main.ee5a54be.css.map": "/dropdown-project/static/css/main.ee5a54be.css.map",
+    "main.fb898221.js.map": "/dropdown-project/static/js/main.fb898221.js.map",
+    "787.6804c560.chunk.js.map": "/dropdown-project/static/js/787.6804c560.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee5a54be.css",
-    "static/js/main.44967100.js"
+    "static/js/main.fb898221.js"
   ]
 }
