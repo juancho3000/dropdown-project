@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/juancho3000/dropdown-project.git/static/css/main.ee5a54be.css",
-    "main.js": "/juancho3000/dropdown-project.git/static/js/main.46b60d8c.js",
-    "static/js/787.6804c560.chunk.js": "/juancho3000/dropdown-project.git/static/js/787.6804c560.chunk.js",
-    "index.html": "/juancho3000/dropdown-project.git/index.html",
-    "main.ee5a54be.css.map": "/juancho3000/dropdown-project.git/static/css/main.ee5a54be.css.map",
-    "main.46b60d8c.js.map": "/juancho3000/dropdown-project.git/static/js/main.46b60d8c.js.map",
-    "787.6804c560.chunk.js.map": "/juancho3000/dropdown-project.git/static/js/787.6804c560.chunk.js.map"
+    "main.css": "/juancho3000/dropdown-project/static/css/main.ee5a54be.css",
+    "main.js": "/juancho3000/dropdown-project/static/js/main.44967100.js",
+    "static/js/787.6804c560.chunk.js": "/juancho3000/dropdown-project/static/js/787.6804c560.chunk.js",
+    "index.html": "/juancho3000/dropdown-project/index.html",
+    "main.ee5a54be.css.map": "/juancho3000/dropdown-project/static/css/main.ee5a54be.css.map",
+    "main.44967100.js.map": "/juancho3000/dropdown-project/static/js/main.44967100.js.map",
+    "787.6804c560.chunk.js.map": "/juancho3000/dropdown-project/static/js/787.6804c560.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee5a54be.css",
-    "static/js/main.46b60d8c.js"
+    "static/js/main.44967100.js"
   ]
 }
