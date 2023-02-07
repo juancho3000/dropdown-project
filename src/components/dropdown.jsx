@@ -5,22 +5,22 @@ import {TiArrowSortedDown} from 'react-icons/ti';
  function Dropdown ({ picked, setPicked }) {
     const [itsOn, setItsOn] = useState(false);
 
-    const options = [  
-       {key:"guillermo"},
-       {key:"miguel"},
-       {key:"nancy"},
-       {key:"juan"},
-       {key:"carmen"},
-       {key: "adriana"},
-       {key:"julia"},
-       {key:"gregory"}
-       ];
+    const options = [
+        "nancy", 
+        "guille", 
+        "miguel", 
+        "claudia", 
+        "estela", 
+        "gergory", 
+        "julia", 
+        "adriana", 
+        "juan"];
 
        return( 
         <div className="select" >
             <div className="select-btn" onClick={(e) => 
             setItsOn(!itsOn)}>
-              Click here {picked}
+              {picked}
              <span className="under"></span>
                 <TiArrowSortedDown/> 
                 </div>
@@ -28,13 +28,13 @@ import {TiArrowSortedDown} from 'react-icons/ti';
                     <div className="select-content">
                     {options.map((option) =>( 
                         <div
-                        key={option.key}
+
                         onClick={(e) => { 
-                         setPicked(option.key); 
+                         setPicked(option); 
                          setItsOn(false);
                         }}
                          className="select-item">
-                            {option.key}
+                            {option}
                         </div>
                     ))}  
                 </div>
