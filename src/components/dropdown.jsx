@@ -20,7 +20,7 @@ import {TiArrowSortedDown} from 'react-icons/ti';
         <div className="select" >
             <div className="select-btn" onClick={(e) => 
             setItsOn(!itsOn)}>
-              Click here
+              Click here {picked}
              <span className="under"></span>
                 <TiArrowSortedDown/> 
                 </div>
